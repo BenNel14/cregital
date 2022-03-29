@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;600;700&family=Poppins:ital,wght@1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: #fff;
+}
+
+a:active {
+  background-color: #65c1ff;
+  color: black;
+}
+
+.container,
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  background-color: #fcfcfc;
+  padding: 30px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+a,
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 10px 0px;
+  margin-bottom: 80px;
+}
+
+header .logo svg {
+  width: 30px;
+  height: 30px;
+}
+
+header .openMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+header .openMenu svg {
+  width: 20px;
+  height: 20px;
+  stroke: none;
+}
+
+header .openMenu p {
+  font-weight: bold;
+  margin-left: 5px;
+  font-size: 11px;
+}
+
+section.hero {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+section.hero h2 {
+  font-size: 30px;
+}
+
+section.hero p {
+  margin-top: 20px;
+  color: #6d6d6d;
+  font-size: 14px;
+}
+
+article a:link {
+  display: inline-block;
+  margin-bottom: 80px;
+}
+
+article a:link h3 {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+article a:link p {
+  font-size: 11px;
+  color: #6d6d6d;
+  margin-top: 7px;
+}
+
+section.aboutUs {
+  margin-bottom: 70px;
+}
+
+section.aboutUs h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+section.aboutUs p {
+  color: #444;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+section.aboutUs p a:link {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 70px 30px 30px 30px;
+}
+
+footer h2 {
+  margin-bottom: 30px;
+}
+
+footer p,
+footer a {
+  font-size: 14px;
+  color: #dfdfdf;
+  width: 80%;
+}
+
+footer a:link {
+  text-decoration: underline;
+}
+
+footer span {
+  color: #444;
+}
+
+footer .copyR {
+  margin-top: 30px;
+  font-size: 11px;
+}
+
+footer .community {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+footer .community a:link {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 12px;
+}
+/*# sourceMappingURL=this.css.map */
